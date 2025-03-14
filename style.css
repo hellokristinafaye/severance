@@ -8,10 +8,18 @@
     display: flex;
 }
 .line {
-    width: 460px;
+    width: 0;
     height: 5px;
     color: transparent;
-    animate: ;
+    animation: slide 5s linear;
+}
+@keyframes slide {
+    /* 0% {
+        width: 0;
+    } */
+    100% {
+        width: 460px;
+    }
 }
 .text {
     margin-top: -40px;
