@@ -6,6 +6,7 @@
 }
 .banner {
     display: flex;
+
 }
 .line {
     width: 0;
@@ -24,7 +25,7 @@
     }
 }
 .text {
-    margin-top: 25px;
+    margin-top: 55px;
     /* color: #7F979A; */
 }
 
